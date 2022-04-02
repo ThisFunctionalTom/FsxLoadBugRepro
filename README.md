@@ -8,4 +8,4 @@ But, if you create a `load-script.fsx` and you load the same files from differen
 
 Try executing `dotnet fsi not-working.fsx`.
 
-The problem appears to have to do something with namespaces. If both file define namespaces (with different names) the load-script does not work but if you change one of the files to define module then it works again.
+The problem appears to have to do something with namespaces. If both files define namespaces (with different names) the load-script does not work but if you change one of the files to define module then it works again.
